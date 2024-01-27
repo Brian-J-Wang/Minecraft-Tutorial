@@ -1,9 +1,8 @@
 This repo follows the tutorials given by KaupenJoe. It is hoped that by the time I finished with the tutorial that I can make minecraft mods.
 
-#Tutorial # 2: Custom Items
-########
+# Tutorial # 2: Custom Items
 The episode focuses on adding simple items to the game, and creating a custom creative tab for it.
-##Key Takeaways
+## Key Takeaways
 1. Registries are used to let minecraft be aware of its existence.
    - registries are used for anything new the user adds to minecraft.
    - there are separate registries for the different types of content the user adds.
