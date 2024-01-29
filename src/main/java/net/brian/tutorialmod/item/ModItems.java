@@ -1,6 +1,7 @@
 package net.brian.tutorialmod.item;
 
 import net.brian.tutorialmod.TutorialMod;
+import net.brian.tutorialmod.item.modCreativeModTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
