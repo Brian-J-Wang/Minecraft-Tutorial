@@ -1,8 +1,9 @@
+# Minecraft Modding Tutorial
 This repo follows the tutorials given by KaupenJoe. It is hoped that by the time I finished with the tutorial that I can make minecraft mods.
 
-# Tutorial #2: Custom Items
+## Tutorial #2: Custom Items
 This episode focuses on adding items to the game, and creating a custom creative tab for it.
-## Key Takeaways
+### Key Takeaways
 1. Registries are used to let minecraft be aware of its existence.
    - registries are used for anything new the user adds to minecraft.
    - there are separate registries for the different types of content the user adds.
@@ -22,9 +23,9 @@ This episode focuses on adding items to the game, and creating a custom creative
 3. Creative mode tabs are created in a separate class called CreativeModeTab, each class creates a new tab but does not know what items are part of that class. Instead that is done when the item is created in the registry.
     - the creative tab localization is done using the same en_us.json file.
 
-# Tutorial #3: Custom Blocks
+## Tutorial #3: Custom Blocks
 This episode focuses on adding basic blocks to minecraft.
-## Key Takeaways
+### Key Takeaways
 1. Blocks needs to be added to the Block registry so that it can be seen in the world, and to the item registry so that it can be used as an item.
    - KaupenJoe uses two helper methods to achieve this. One adds it to the blocks registry and another adds it to the item registry called from the block registry
    - Adding blocks to the game is very similar to adding items to the game, name block builder, creativemode tab. Though in this case the creative mod tab is created when the block is added to the item registry (resulting in the need for adding the blocks to two different registries)
@@ -58,3 +59,8 @@ This episode focuses on adding basic blocks to minecraft.
    "parent": "MOD_NAME:block/BLOCK_NAME"
 }
 ```
+
+## Tutorial #4 Recipes and Loot Tables
+This tutorial shows how to create recipes and form a loot table
+
+### Key Takeaways
